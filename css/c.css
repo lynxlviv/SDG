@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #102238;
+  color: #00d6ad; }
+
+p {
+  font-size: 20px; }
+
+p.small {
+  font-size: 16px; }
+
+.text-transform {
+  text-transform: uppercase; }
+
+.center {
+  text-align: center; }
+
+.margin-bottom {
+  margin-bottom: 30px; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+  color: #00d6ad;
+  outline: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400; }
+
+h1 {
+  font-size: 4em; }
+
+header {
+  height: 80px;
+  margin: 5px 0; }
+
+.container-bg {
+  min-height: 550px;
+  background: url(../img/Cisinau.png) bottom no-repeat;
+  background-size: contain;
+  margin: 0 3% 3% 3%; }
+
+.container-bg-gradient {
+  min-height: 550px;
+  position: relative;
+  background: -webkit-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(106, 230, 206, 0) 58%, rgba(0, 214, 173, 0.3) 100%); }
+
+.login-box {
+  padding: 0 5%; }
+
+#login-form {
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.input-text {
+  width: 100%;
+  font-size: 16px;
+  background: #102238;
+  color: white;
+  padding: 4px;
+  height: auto;
+  border: 2px solid #00d6ad;
+  margin: 3px;
+  border-radius: 6px;
+  outline: none; }
+
+.input-submit {
+  width: 80%;
+  font-size: 20px;
+  background: #00d6ad;
+  color: black;
+  cursor: pointer;
+  padding: 4px;
+  height: auto;
+  border: 2px solid #00d6ad;
+  margin: 3px;
+  border-radius: 6px;
+  outline: none; }
+
+::-webkit-input-placeholder {
+  color: white; }
+
+@media (max-width: 767px) {
+  .input-submit {
+    width: 100%; } }
+
+.btn-outline {
+  font-size: 20px;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: solid 2px white;
+  background: transparent; }
+  .btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+    border: solid 2px white;
+    background: white; }
+
+.btn-primary {
+  font-weight: 700; }
+
+.btn-success {
+  font-weight: 700; }
+
+.btn-social {
+  font-size: 20px;
+  line-height: 45px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 100%; }
+
+.btn.active,
+.btn:active,
+.btn:focus {
+  outline: none; }

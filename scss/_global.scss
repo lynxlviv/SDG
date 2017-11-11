@@ -1,0 +1,113 @@
+// Global styling for this template
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: $blue-base;
+    color: $text;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center
+}
+
+.margin-bottom {
+    margin-bottom: 30px
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center
+}
+
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: $text;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+header {
+    height: 80px;
+    margin: 5px 0;
+}
+
+.container-bg {
+    min-height: $bg-height;
+    
+    background: url(../img/Cisinau.png) bottom no-repeat;
+    background-size: contain;
+    margin: 0 3% 3% 3%;
+}
+.container-bg-gradient{
+       min-height: $bg-height;
+    position: relative;
+    
+    background: $gradient;
+
+    
+}
+
+.login-box {
+    padding: 0 5%;
+}
+
+#login-form {
+    padding: 0 20px;
+    box-sizing: border-box
+}
+
+
+
+.input-text{
+    width: 100%;
+    font-size: 16px;
+    background: $blue-base;
+    color: white;
+    @include input-style
+}
+.input-submit {
+    width: 80%;
+    font-size: 20px;
+    background: $text;
+    color: black;
+    cursor: pointer;
+    @include input-style
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+@media(max-width:767px) {
+    .input-submit {
+        width: 100%;
+    }
+}
